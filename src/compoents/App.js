@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { NICE, SUPER_NICE } from './colors';
 import {Button} from 'amazeui-react';
 
-require('./main.css');
+
+require('../styles/main.css');
 
 
 class Counter extends Component {
@@ -35,10 +35,11 @@ export class App extends Component {
     render() {
         return (
             <div>
-            <Button>Button</Button>
+            <Button>"Buton"</Button>
+            <Button>"Button"</Button>
             <div className="header">  <div> this is header  </div> </div>
-            <Counter increment={1} color={NICE} />
-            <Counter increment={5} color={SUPER_NICE} />
+            <Counter increment={1}  />
+            <Counter increment={5} color="green" />
             </div>
         );
     }

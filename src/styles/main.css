@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+
+.header{
+    background-color: red;
+    div {
+        background-color: pink;
+    }
+}
+
+Content {
+    color: blue;
+}
+
+h1 {
+    margin: 0;
+    color: blue;
+}
+
