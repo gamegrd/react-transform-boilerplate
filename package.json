@@ -33,6 +33,7 @@
   },
   "homepage": "https://github.com/gaearon/react-transform-boilerplate",
   "devDependencies": {
+    "amazeui-react": "^1.0.0",
     "autoprefixer": "^6.3.1",
     "babel-core": "^6.3.15",
     "babel-eslint": "^5.0.0-beta4",
